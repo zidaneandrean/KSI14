@@ -1,3 +1,8 @@
+<?php 
+    // Jika ingin menambah logic PHP nanti, bisa ditulis di sini.
+    // Saat ini hanya memuat file HTML.
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,6 +10,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website | Zidane Andrean</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -12,13 +18,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
 </head>
 
 <body>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
+
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Porto<span>folio.</span></a></div>
@@ -36,7 +42,6 @@
         </div>
     </nav>
 
-    <!-- home section start  -->
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
@@ -48,7 +53,6 @@
         </div>
     </section>
 
-    <!-- about section start  -->
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About me</h2>
@@ -59,7 +63,7 @@
                 <div class="column right">
                     <div class="text">I'm Zidane Andrean and I'm a <span class="typing-2"></span></div>
                     <p>
-                        Hello, my name is ZIdane Andrean, and I am currently a student at Lampung State Polytechnic, majoring in Informatics Management. With a passion for technology and problem-solving, I have honed my skills in software development and various other IT disciplines. Throughout my academic journey, I have gained extensive experience in programming languages, software engineering principles, and database management. I am proficient in languages such as Java, Python, and SQL, and I have a solid understanding of software development life cycles, from planning and design to implementation and maintenance.
+                        Hello, my name is Zidane Andrean, and I am currently a student at Lampung State Polytechnic...
                     </p>
                     <a href="#">Download CV</a>
                 </div>
@@ -67,7 +71,6 @@
         </div>
     </section>
 
-    <!-- services section start  -->
     <section class="services" id="services">
         <div class="max-width">
             <h2 class="title">My services</h2>
@@ -76,34 +79,29 @@
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Web Design</div>
-                        <p>
-                            I have a passion for web design and I'm always looking for new opportunities to learn and grow.
-                        </p>
+                        <p>I have a passion for web design...</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
                         <div class="text">Advertising</div>
-                        <p>
-                            I'm a web developer and I'm currently working as a freelancer. I have a passion for web development and I'm always looking for new opportunities to learn and grow.
-                        </p>
+                        <p>I'm a web developer and freelancer...</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">Apps Design</div>
-                        <p>
-                            I'm a web developer and I'm currently working as a freelancer. I have a passion for web development and I'm always looking for new opportunities to learn and grow.
-                        </p>
+                        <p>I'm a web developer and freelancer...</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- skills section start  -->
     <section class="skills" id="skills">
         <div class="max-width">
             <h2 class="title">My skills</h2>
@@ -111,44 +109,34 @@
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
                     <p>
-                        I am a very detailed and meticulous person, I love to combine, draw and organize. With these skills, I have the ability to create a good website. I once made a tuition payment web for one of the schools in Bandar Lampung and got Garuda certification.
+                        I am a detailed and meticulous person...
                     </p>
                     <a href="#">Read more</a>
                 </div>
+
                 <div class="column right">
                     <div class="bars">
-                        <div class="info">
-                            <span>HTML</span>
-                            <span>90%</span>
-                        </div>
+                        <div class="info"><span>HTML</span> <span>90%</span></div>
                         <div class="line html"></div>
                     </div>
+
                     <div class="bars">
-                        <div class="info">
-                            <span>CSS</span>
-                            <span>60%</span>
-                        </div>
+                        <div class="info"><span>CSS</span> <span>60%</span></div>
                         <div class="line css"></div>
                     </div>
+
                     <div class="bars">
-                        <div class="info">
-                            <span>JavaScript</span>
-                            <span>80%</span>
-                        </div>
+                        <div class="info"><span>JavaScript</span> <span>80%</span></div>
                         <div class="line js"></div>
                     </div>
+
                     <div class="bars">
-                        <div class="info">
-                            <span>PHP</span>
-                            <span>50%</span>
-                        </div>
+                        <div class="info"><span>PHP</span> <span>50%</span></div>
                         <div class="line php"></div>
                     </div>
+
                     <div class="bars">
-                        <div class="info">
-                            <span>MySQL</span>
-                            <span>70%</span>
-                        </div>
+                        <div class="info"><span>MySQL</span> <span>70%</span></div>
                         <div class="line mysql"></div>
                     </div>
                 </div>
@@ -156,61 +144,55 @@
         </div>
     </section>
 
-    <!-- teams section start  -->
     <section class="teams" id="teams">
         <div class="max-width">
             <h2 class="title">My teams</h2>
             <h2 class="carousel owl-carousel">
+
                 <div class="card">
                     <div class="box">
                         <img src="images/damar.png" alt="">
                         <div class="text">Damar Arif</div>
-                        <p>
-                            I'm a Programmer, Youtuber, and Seller
-                        </p>
+                        <p>I'm a Programmer, Youtuber, and Seller</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="box">
                         <img src="images/zidane.png" alt="">
                         <div class="text">Zidane Andrean</div>
-                        <p>
-                            I'm a Programmer, Designer, and Gamer
-                        </p>
+                        <p>I'm a Programmer, Designer, and Gamer</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="box">
                         <img src="images/ari.png" alt="">
                         <div class="text">Ari Julianto</div>
-                        <p>
-                            I'm a web developer
-                        </p>
+                        <p>I'm a web developer</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="box">
                         <img src="images/fitri.png" alt="">
                         <div class="text">Fitri Adi</div>
-                        <p>
-                            I'm a web developer
-                        </p>
+                        <p>I'm a web developer</p>
                     </div>
                 </div>
+
         </div>
         </div>
     </section>
 
-    <!-- contact section start  -->
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contact me</h2>
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
-                    <p>
-                        If you are interested in discussing the projects or services I offer further, please don't hesitate to reach out to me via email or by phone. I'll be happy to answer any of your questions and assist you in finding a solution that best fits your needs.
-                    </p>
+                    <p>If you are interested in discussing the projects...</p>
+
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
@@ -219,6 +201,7 @@
                                 <div class="sub-title">Muhammad Zidane Andrean</div>
                             </div>
                         </div>
+
                         <div class="row">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
@@ -226,6 +209,7 @@
                                 <div class="sub-title">Bandar Lampung, Indonesia</div>
                             </div>
                         </div>
+
                         <div class="row">
                             <i class="fas fa-envelope"></i>
                             <div class="info">
@@ -233,45 +217,48 @@
                                 <div class="sub-title">zidaneandrean7@gmail.com</div>
                             </div>
                         </div>
+
                         <div class="row">
                             <i class="fas fa-bars"></i>
                             <div class="info">
                                 <div class="head">Call</div>
                                 <div class="sub-title">0857-6948-1510</div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
+
                 <div class="column right">
                     <div class="text">Message me</div>
                     <form action="#">
                         <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
-                            </div>
+                            <div class="field name"><input type="text" placeholder="Name" required></div>
+                            <div class="field email"><input type="email" placeholder="Email" required></div>
                         </div>
+
                         <div class="field">
                             <input type="text" placeholder="Subject" required>
                         </div>
+
                         <div class="field textarea">
                             <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
+
                         <div class="button-area">
                             <button type="submit">Send message</button>
                         </div>
                     </form>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- footer section start  -->
     <footer>
         <span>Created By <a href="#">Muhammad Zidane Andrean</a> | <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
     </footer>
+
     <script src="script.js"></script>
 </body>
-
 </html>
